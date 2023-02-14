@@ -53,12 +53,25 @@ public class Main {
         }
     public static void task3 () {
         System.out.println("Задача 6-8");
-        var dog = 8.0 + 4;
-        System.out.println(dog);
-        var cat = 3.6 + 4;
-        System.out.println(cat);
-        var paper = 763789 + 4;
-        System.out.println(paper);// Код для задачи 3
-
+        System.out.println("Задача 6");
+          var oneBoxers = 78.2;
+          var twoBoxers = 82.7;
+          var totalWeightBoxers = oneBoxers + twoBoxers;
+           System.out.println("Общий вес бойцов равен " + totalWeightBoxers + " кг!");
+          var weightDifference = (-oneBoxers - (-twoBoxers));
+           System.out.println("Разница в весе бойцов равна " + weightDifference + " кг!"); // Код для задачи 6
+        System.out.println("Задача 7");
+          var weightDifference1 = twoBoxers - oneBoxers;
+           System.out.println("Разница в весе бойцов равна " + weightDifference1 + " кг!");
+          var weightDifference2 =  twoBoxers % oneBoxers;
+           System.out.println("Разница в весе бойцов равна " + weightDifference2 + " кг!"); // Код для задачи 7
+        System.out.println("Задача 8");
+          var totalHours = 640;
+          var oneEmployee = 8;
+          var numberEmployees = totalHours / oneEmployee;
+           System.out.println("Всего работников в компании - " + numberEmployees + " человек");
+          var totalPeople = numberEmployees + 94;
+          var totalHoursTwo = totalPeople * oneEmployee;
+           System.out.println("Если в компании работает - " + totalPeople + " человек, то всего " + totalHoursTwo + " часа работы может быть поделено между сотрудниками" );// Код для задачи 8
     }
     }
